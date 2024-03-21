@@ -1,13 +1,9 @@
 #pragma once
-
 #include "Triangulation.h"
 #include "Point3D.h"
 #include "MathUtility.h"
-
-
 class Findpath
 {
-
 public:
 	vector<Point3D> findpath(Triangulation& terrain);
 
